@@ -2,11 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import { AppProvider } from "./context";
+// import { AppProvider } from "./context";
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-  <AppProvider>
+  // <AppProvider>
+  <BrowserRouter>
     <App />
-  </AppProvider>,
+  </BrowserRouter>,
+  // </AppProvider>
   document.getElementById("root")
 );
