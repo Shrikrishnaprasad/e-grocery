@@ -12,8 +12,8 @@ const AboutUs = () => {
           <img
             className="AboutUs-AboutIMG"
             src="https://images.unsplash.com/photo-1506617564039-2f3b650b7010?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80"
-            alt="https://images.unsplash.com/photo-1506617564039-2f3b650b7010?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80"
-          ></img>
+            alt=""
+          />
         </div>
         <div className="AboutUs-Content">
           <h3 className="AboutUs-ContentH3">Fresh and Organic groceries</h3>
@@ -44,42 +44,42 @@ const AboutUs = () => {
             <img
               className="AboutUs-BoxIMG"
               src="https://images.unsplash.com/photo-1626906722163-bd4c03cb3b9b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
-              alt="https://images.unsplash.com/photo-1626906722163-bd4c03cb3b9b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+              alt=""
             />
           </div>
           <div className="AboutUs-Box">
             <img
               className="AboutUs-BoxIMG"
               src="https://images.unsplash.com/photo-1604742763104-86a0cf0aa1c2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
-              alt="https://images.unsplash.com/photo-1604742763104-86a0cf0aa1c2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+              alt=""
             />
           </div>
           <div className="AboutUs-Box">
             <img
               className="AboutUs-BoxIMG"
               src="https://images.unsplash.com/photo-1609842947419-ba4f04d5d60f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80"
-              alt="https://images.unsplash.com/photo-1609842947419-ba4f04d5d60f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80"
+              alt=""
             />
           </div>
           <div className="AboutUs-Box">
             <img
               className="AboutUs-BoxIMG"
               src="https://images.unsplash.com/photo-1516594798947-e65505dbb29d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
-              alt="https://images.unsplash.com/photo-1516594798947-e65505dbb29d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+              alt=""
             />
           </div>
           <div className="AboutUs-Box">
             <img
               className="AboutUs-BoxIMG"
               src="https://images.unsplash.com/photo-1553546895-531931aa1aa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
-              alt="https://images.unsplash.com/photo-1553546895-531931aa1aa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
+              alt=""
             />
           </div>
           <div className="AboutUs-Box">
             <img
               className="AboutUs-BoxIMG"
               src="https://images.unsplash.com/photo-1512576666689-502f7d95eb21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80"
-              alt="https://images.unsplash.com/photo-1512576666689-502f7d95eb21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80"
+              alt=""
             />
           </div>
 
@@ -87,21 +87,21 @@ const AboutUs = () => {
             <img
               className="AboutUs-BoxIMG"
               src="https://images.unsplash.com/photo-1599678914948-8e0a39f42a31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
-              alt="https://images.unsplash.com/photo-1599678914948-8e0a39f42a31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+              alt=""
             />
           </div>
           <div className="AboutUs-Box">
             <img
               className="AboutUs-BoxIMG"
               src="https://images.unsplash.com/photo-1526470498-9ae73c665de8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=998&q=80"
-              alt="https://images.unsplash.com/photo-1526470498-9ae73c665de8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=998&q=80"
+              alt=""
             />
           </div>
           <div className="AboutUs-Box">
             <img
               className="AboutUs-BoxIMG"
               src="https://images.unsplash.com/photo-1437276030334-d2faf20c1323?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-              alt="https://images.unsplash.com/photo-1437276030334-d2faf20c1323?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+              alt=""
             />
           </div>
         </div>
