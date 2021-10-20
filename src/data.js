@@ -49,7 +49,7 @@ export const popularProducts = [
     name: "Apple",
     category: "fruit",
     price: 80,
-    desc: "",
+    desc: "An apple is an edible fruit produced by an apple tree. Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found today. ",
   },
   {
     id: 2,
@@ -57,7 +57,7 @@ export const popularProducts = [
     name: "Watermelon",
     category: "fruit",
     price: 70,
-    desc: "",
+    desc: "Watermelon is a flowering plant species of the Cucurbitaceae family and the name of its edible fruit. A scrambling and trailing vine-like plant, it was originally domesticated in Africa. It is a highly cultivated fruit worldwide, with more than 1,000 varieties.",
   },
   {
     id: 3,
@@ -65,7 +65,7 @@ export const popularProducts = [
     name: "Orange",
     category: "fruit",
     price: 80,
-    desc: "",
+    desc: "The orange is the fruit of various citrus species in the family Rutaceae; it primarily refers to Citrus × sinensis, which is also called sweet orange, to distinguish it from the related Citrus × aurantium, referred to as bitter orange.",
   },
   {
     id: 4,
@@ -73,7 +73,7 @@ export const popularProducts = [
     name: "Strawberry",
     category: "fruit",
     price: 90,
-    desc: "",
+    desc: "The garden strawberry is a widely grown hybrid species of the genus Fragaria, collectively known as the strawberries, which are cultivated worldwide for their fruit. The fruit is widely appreciated for its characteristic aroma, bright red color, juicy texture, and sweetness.",
   },
   {
     id: 5,
@@ -81,7 +81,7 @@ export const popularProducts = [
     name: "Grape",
     category: "fruit",
     price: 60,
-    desc: "",
+    desc: "A grape is a fruit, botanically a berry, of the deciduous woody vines of the flowering plant genus Vitis. Grapes can be eaten fresh as table grapes, used for making wine, jam, grape juice, jelly, grape seed extract, vinegar, and grape seed oil, or dried as raisins, currants and sultanas. ",
   },
   {
     id: 6,
@@ -89,7 +89,7 @@ export const popularProducts = [
     name: "Cherry",
     category: "fruit",
     price: 50,
-    desc: "",
+    desc: "A cherry is the fruit of many plants of the genus Prunus, and is a fleshy drupe. Commercial cherries are obtained from cultivars of several species, such as the sweet Prunus avium and the sour Prunus cerasus.",
   },
   {
     id: 7,
@@ -97,7 +97,7 @@ export const popularProducts = [
     name: "Mango",
     category: "fruit",
     price: 150,
-    desc: "",
+    desc: "A mango is an edible stone fruit produced by the tropical tree Mangifera indica which is believed to have originated from the region between northwestern Myanmar, Bangladesh, and northeastern India. ",
   },
   {
     id: 8,
@@ -105,7 +105,7 @@ export const popularProducts = [
     name: "Nectarine",
     category: "fruit",
     price: 80,
-    desc: "",
+    desc: "The nectarine belongs to the family Rosaceae and is classified as Prunus persica variety nucipersica. Nectarines are smooth-skinned fleshy fruit that distinguish from the peach in aroma, skin texture, and flavor, but they resemble peach colour, size and shape of seed. ",
   },
   {
     id: 9,
@@ -113,7 +113,7 @@ export const popularProducts = [
     name: "Banana",
     category: "fruit",
     price: 100,
-    desc: "",
+    desc: "A banana is an elongated, edible fruit – botanically a berry– produced by several kinds of large herbaceous flowering plants in the genus Musa. In some countries, bananas used for cooking may be called 'plantains', distinguishing them from dessert bananas. ",
   },
   {
     id: 10,
@@ -121,7 +121,7 @@ export const popularProducts = [
     name: "Pomegranate",
     category: "fruit",
     price: 200,
-    desc: "",
+    desc: "The pomegranate is a fruit-bearing deciduous shrub in the family Lythraceae, subfamily Punicoideae, that grows between 5 and 10 m tall. The pomegranate was originally described throughout the Mediterranean region.",
   },
 
   {
@@ -130,7 +130,7 @@ export const popularProducts = [
     name: "Tomato",
     category: "vegetable",
     price: 70,
-    desc: "",
+    desc: "The tomato is the edible berry of the plant Solanum lycopersicum, commonly known as a tomato plant. The species originated in western South America and Central America. ... Tomatoes are a significant source of umami flavor. The tomato is consumed in diverse ways, raw or cooked, in many dishes, sauces, salads, and drinks.",
   },
   {
     id: 12,
@@ -138,7 +138,7 @@ export const popularProducts = [
     name: "Corn",
     category: "vegetable",
     price: 120,
-    desc: "",
+    desc: "Corn is a tall annual cereal grass (Zea mays) that is widely grown for its large elongated ears of starchy seeds. The seeds, which are also known as corn, are used as food for humans and livestock and as a source of biofuel and can be processed into a wide range of useful chemicals.",
   },
   {
     id: 13,
@@ -146,7 +146,7 @@ export const popularProducts = [
     name: "Carrot",
     category: "vegetable",
     price: 80,
-    desc: "",
+    desc: "The carrot is a root vegetable, typically orange in color, though purple, black, red, white, and yellow cultivars exist, all of which are domesticated forms of the wild carrot, Daucus carota, native to Europe and Southwestern Asia",
   },
   {
     id: 14,
@@ -154,7 +154,7 @@ export const popularProducts = [
     name: "Green pepper",
     category: "vegetable",
     price: 40,
-    desc: "",
+    desc: "The bell pepper is the fruit of plants in the Grossum cultivar group of the species Capsicum annuum. Cultivars of the plant produce fruits in different colors, including red, yellow, orange, green, white, and purple. Bell peppers are sometimes grouped with less pungent chili varieties as 'sweet peppers'.",
   },
   {
     id: 15,
@@ -162,7 +162,7 @@ export const popularProducts = [
     name: "Pea",
     category: "vegetable",
     price: 50,
-    desc: "",
+    desc: "The pea is most commonly the small spherical seed or the seed-pod of the pod fruit Pisum sativum. Each pod contains several peas, which can be green or yellow. Botanically, pea pods are fruit, since they contain seeds and develop from the ovary of a flower",
   },
   {
     id: 16,
@@ -170,7 +170,7 @@ export const popularProducts = [
     name: "Mushroom",
     category: "vegetable",
     price: 100,
-    desc: "",
+    desc: " A mushroom or toadstool is the fleshy, spore-bearing fruiting body of a fungus, typically produced above ground, on soil, or on its food source",
   },
   {
     id: 17,
@@ -178,7 +178,7 @@ export const popularProducts = [
     name: "Red Cabbage",
     category: "vegetable",
     price: 60,
-    desc: "",
+    desc: "The red cabbage is a kind of cabbage, also known as Blaukraut after preparation. Its leaves are colored dark red/purple. However, the plant changes its color according to the pH value of the soil, due to a pigment belonging to anthocyanins.",
   },
   {
     id: 18,
@@ -186,7 +186,7 @@ export const popularProducts = [
     name: "Radish",
     category: "vegetable",
     price: 70,
-    desc: "",
+    desc: "The radish is an edible root vegetable of the family Brassicaceae that was domesticated in Asia prior to Roman times. Radishes are grown and consumed throughout the world, being mostly eaten raw as a crunchy salad vegetable with a pungent flavor.",
   },
   {
     id: 19,
@@ -194,7 +194,7 @@ export const popularProducts = [
     name: "Red pepper",
     category: "vegetable",
     price: 60,
-    desc: "",
+    desc: "The bell pepper is the fruit of plants in the Grossum cultivar group of the species Capsicum annuum. Cultivars of the plant produce fruits in different colors, including red, yellow, orange, green, white, and purple. Bell peppers are sometimes grouped with less pungent chili varieties as 'sweet peppers '",
   },
   {
     id: 20,
@@ -202,7 +202,7 @@ export const popularProducts = [
     name: "Broccoli",
     category: "vegetable",
     price: 90,
-    desc: "",
+    desc: "Broccoli is an edible green plant in the cabbage family whose large flowering head, stalk and small associated leaves are eaten as a vegetable. Broccoli is classified in the Italica cultivar group of the species Brassica oleracea",
   },
   {
     id: 21,
@@ -210,7 +210,7 @@ export const popularProducts = [
     name: "Cauliflower",
     category: "vegetable",
     price: 80,
-    desc: "",
+    desc: "Cauliflower is one of several vegetables in the species Brassica oleracea in the genus Brassica, which is in the Brassicaceae family. It is an annual plant that reproduces by seed. Typically, only the head is eaten – the edible white flesh sometimes called curd",
   },
   {
     id: 22,
@@ -218,7 +218,7 @@ export const popularProducts = [
     name: "Onion",
     category: "vegetable",
     price: 60,
-    desc: "",
+    desc: "The onion, also known as the bulb onion or common onion, is a vegetable that is the most widely cultivated species of the genus Allium. The shallot is a botanical variety of the onion. Until 2010, the shallot was classified as a separate species. ",
   },
   {
     id: 23,
@@ -226,7 +226,7 @@ export const popularProducts = [
     name: "Garlic",
     category: "vegetable",
     price: 60,
-    desc: "",
+    desc: "Garlic is a species of bulbous flowering plant in the genus Allium. Its close relatives include the onion, shallot, leek, chive, Welsh onion and Chinese onion",
   },
   {
     id: 24,
@@ -234,15 +234,15 @@ export const popularProducts = [
     name: "Pumpkin",
     category: "vegetable",
     price: 100,
-    desc: "",
+    desc: "A pumpkin is a cultivar of winter squash that is round with smooth, slightly ribbed skin, and is most often deep yellow to orange in coloration. The thick shell contains the seeds and pulp ",
   },
   {
     id: 25,
     img: "https://images.unsplash.com/photo-1573426667638-18ccdd988a39?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80",
-    name: "Beet",
+    name: "Beet Root",
     category: "vegetable",
     price: 50,
-    desc: "",
+    desc: "The beetroot is the taproot portion of a beet plant, usually known in Canada and the United States as beets while the vegetable is referred to as beetroot in British English, and also known as the table beet, garden beet, red beet, dinner beet or golden beet",
   },
 
   {
@@ -251,7 +251,7 @@ export const popularProducts = [
     name: "Pepper",
     category: "spices",
     price: 60,
-    desc: "",
+    desc: "Black pepper is a flowering vine in the family Piperaceae, cultivated for its fruit, known as a peppercorn, which is usually dried and used as a spice and seasoning. The fruit is drupe which, when fresh and fully mature, is about 5 mm in diameter, dark red, and contains a stone which encloses a single pepper seed",
   },
   {
     id: 27,
@@ -259,7 +259,7 @@ export const popularProducts = [
     name: "Fenugreek",
     category: "spices",
     price: 90,
-    desc: "",
+    desc: "Fenugreek is an annual plant in the family Fabaceae, with leaves consisting of three small obovate to oblong leaflets. It is cultivated worldwide as a semiarid crop. Its seeds and leaves are common ingredients in dishes from the Indian subcontinent, and have been used as a culinary ingredient since ancient times ",
   },
   {
     id: 28,
@@ -267,7 +267,7 @@ export const popularProducts = [
     name: "Saffron",
     category: "spices",
     price: 250,
-    desc: "",
+    desc: "Saffron is a spice derived from the flower of Crocus sativus, commonly known as the 'saffron crocus'. The vivid crimson stigma and styles, called threads, are collected and dried for use mainly as a seasoning and colouring agent in food. Saffron has long been the world's costliest spice by weight.",
   },
   {
     id: 29,
@@ -275,7 +275,7 @@ export const popularProducts = [
     name: "Cloves",
     category: "spices",
     price: 80,
-    desc: "",
+    desc: "Cloves are the aromatic flower buds of a tree in the family Myrtaceae, Syzygium aromaticum. They are native to the Maluku Islands in Indonesia, and are commonly used as a spice. Cloves are available throughout the year owing to different harvest seasons in different countries",
   },
   {
     id: 30,
@@ -283,7 +283,7 @@ export const popularProducts = [
     name: "Allspice",
     category: "spices",
     price: 70,
-    desc: "",
+    desc: "Allspice, also known as Jamaica pepper, myrtle pepper, pimenta, or pimento, is the dried unripe berry of Pimenta dioica, a midcanopy tree native to the Greater Antilles, southern Mexico, and Central America, now cultivated in many warm parts of the world. ",
   },
   {
     id: 31,
@@ -291,7 +291,7 @@ export const popularProducts = [
     name: "Cinnamon sticks",
     category: "spices",
     price: 60,
-    desc: "",
+    desc: "Cinnamon is a spice that is made from the inner bark of trees scientifically known as Cinnamomum. It has been used as an ingredient throughout history, dating back as far as Ancient Egypt. It used to be rare and valuable and was regarded as a gift fit for kings.",
   },
   {
     id: 32,
@@ -299,7 +299,7 @@ export const popularProducts = [
     name: "Star anise",
     category: "spices",
     price: 50,
-    desc: "",
+    desc: "Illicium verum is a medium-sized evergreen tree native to northeast Vietnam and southwest China. A spice commonly called star anise, staranise, star anise seed, star aniseed, Chinese star anise",
   },
   {
     id: 33,
@@ -307,7 +307,7 @@ export const popularProducts = [
     name: "Green cardamoms",
     category: "spices",
     price: 100,
-    desc: "",
+    desc: "Cardamom, sometimes cardamon or cardamum, is a spice made from the seeds of several plants in the genera Elettaria and Amomum in the family Zingiberaceae. Both genera are native to the Indian subcontinent and Indonesia",
   },
   {
     id: 34,
@@ -315,7 +315,7 @@ export const popularProducts = [
     name: "Bay leaf",
     category: "spices",
     price: 30,
-    desc: "",
+    desc: "The bay leaf is an aromatic leaf commonly used in cooking. It can be used whole or in a dried or ground form.",
   },
   {
     id: 35,
@@ -323,6 +323,6 @@ export const popularProducts = [
     name: "Mace",
     category: "spices",
     price: 80,
-    desc: "",
+    desc: "Nutmeg is the seed or ground spice of several species of the genus Myristica. Myristica fragrans is a dark-leaved evergreen tree cultivated for two spices derived from its fruit: nutmeg, from its seed, and mace, from the seed covering. It is also a commercial source of an essential oil and nutmeg butter",
   },
 ];

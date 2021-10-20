@@ -1,0 +1,58 @@
+.Navbar-Container {
+  height: 60px;
+  margin-top: -10px;
+  max-width: 100vw;
+}
+
+.Navbar-Wrapper {
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Navbar-Center {
+  flex: 1;
+}
+
+.Navbar-Logo {
+  font-weight: bold;
+}
+.Navbar-LogoText {
+  border: 0.5px solid lightgray;
+  cursor: pointer;
+  padding: 5px;
+  letter-spacing: 1px;
+  color: purple;
+}
+.Navbar-Right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.Navbar-MenuItem {
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 25px;
+}
+@media only screen and (max-width: 420px) {
+  .Navbar-Container {
+    height: 50px;
+  }
+  .Navbar-Wrapper {
+    padding: 10px 0;
+  }
+  .Navbar-Logo {
+    font-size: 24px;
+  }
+  .Navbar-Right {
+    flex: 2;
+    justify-content: center;
+  }
+  .Navbar-MenuItem {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+}

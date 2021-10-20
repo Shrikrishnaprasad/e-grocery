@@ -1,0 +1,39 @@
+.ProductList-Title {
+  margin: 20px;
+}
+
+.ProductList-FilterContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ProductList-Filter {
+  margin: 20px;
+}
+
+.ProductList-FilterText {
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+.ProductList-Select {
+  padding: 10px;
+  margin-right: 20px;
+}
+.ProductList-Option {
+  padding: 10px;
+  margin-right: 20px;
+}
+@media only screen and (max-width: 420px) {
+  .ProductList-Filter {
+    width: 0px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .ProductList-FilterText {
+    margin-right: 0;
+  }
+  .ProductList-Select {
+    margin: 10px 0;
+  }
+}

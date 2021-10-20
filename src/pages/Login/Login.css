@@ -1,0 +1,56 @@
+.Login-Container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url("https://images.unsplash.com/photo-1535228482415-b728d6e690c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")
+      center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Login-Wrapper {
+  width: 24%;
+  padding: 20px;
+  background-color: white;
+}
+.Login-Title {
+  font-size: 24px;
+  font-weight: 300;
+}
+.Login-Form {
+  display: flex;
+  flex-direction: column;
+}
+.Login-Input {
+  flex: 1;
+  min-width: 40%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.Login-Button {
+  width: 40%;
+  border: none;
+  padding: 15px 20px;
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.Login-Link {
+  margin: 5px 0px;
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+@media only screen and (max-width: 420px) {
+  .Login-Wrapper {
+    width: 75%;
+  }
+}

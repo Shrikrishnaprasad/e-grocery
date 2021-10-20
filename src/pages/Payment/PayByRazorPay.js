@@ -1,16 +1,8 @@
 import React, { useEffect } from "react";
 import { useHistory } from "react-router-dom";
-import styled from "styled-components";
-import { useGlobalContext } from "../context";
+import { useGlobalContext } from "../../context";
+import "./PayByRazorPay.css";
 
-const Button = styled.button`
-  width: 100%;
-  padding: 10px;
-  background-color: black;
-  color: white;
-  font-weight: 600;
-  cursor: pointer;
-`;
 const PayByRazorPay = ({ amount }) => {
   const history = useHistory();
   const { user, cart, clearCart, URL } = useGlobalContext();
@@ -84,7 +76,9 @@ const PayByRazorPay = ({ amount }) => {
 
   return (
     <>
-      <Button onClick={openPayModal}>CHECKOUT NOW</Button>
+      <button className="Payment-Button" onClick={openPayModal}>
+        CHECKOUT NOW
+      </button>
     </>
   );
 };

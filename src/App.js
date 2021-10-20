@@ -1,32 +1,31 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
+import ProductList from "./pages/ProductList/ProductList";
+import ProductDetails from "./pages/ProductDetails/ProductDetails";
+import Register from "./pages/Register/Register";
+import Login from "./pages/Login/Login";
+import Cart from "./pages/Cart/Cart";
 
 const App = () => {
   return (
     <Switch>
       <Route exact path="/productList">
-        <h1>ProductList</h1>
-        {/* <ProductList /> */}
+        <ProductList />
       </Route>
       <Route exact path="/product/:id">
-        <h1>Product</h1>
-        {/* <Product /> */}
+        <ProductDetails />
       </Route>
       <Route exact path="/register">
-        <h1>Register</h1>
-        {/* <Register /> */}
+        <Register />
       </Route>
       <Route exact path="/login">
-        <h1>Login</h1>
-        {/* <Login /> */}
+        <Login />
       </Route>
       <Route exact path="/cart">
-        <h1>Cart</h1>
-        {/* <Cart /> */}
+        <Cart />
       </Route>
       <Route exact path="/">
-        {/* <h1>Home</h1> */}
         <Home />
       </Route>
     </Switch>

@@ -1,0 +1,66 @@
+.ProductDetails-Wrapper {
+  padding: 50px;
+  display: flex;
+}
+
+.ProductDetails-ImgContainer {
+  flex: 1;
+}
+
+.ProductDetails-Image {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.ProductDetails-InfoContainer {
+  flex: 1;
+  padding: 0px 50px;
+}
+
+.ProductDetails-Title {
+  font-weight: 200;
+}
+
+.ProductDetails-Desc {
+  margin: 20px 0px;
+}
+
+.ProductDetails-Price {
+  font-weight: 100;
+  font-size: 40px;
+}
+
+.ProductDetails-AddContainer {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ProductDetails-Button {
+  padding: 15px;
+  border: 2px solid purple;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.ProductDetails-Button:hover {
+  background-color: #f8f4f4;
+}
+@media only screen and (max-width: 420px) {
+  .ProductDetails-Wrapper {
+    padding: 10px;
+    flex-direction: column;
+  }
+  .ProductDetails-Image {
+    height: 40vh;
+  }
+  .ProductDetails-InfoContainer {
+    padding: 10px;
+  }
+  .ProductDetails-AddContainer {
+    width: 100%;
+  }
+}
