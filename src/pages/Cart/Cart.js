@@ -1,4 +1,5 @@
 import { AddCircle, RemoveCircle } from "@mui/icons-material";
+import React from "react";
 import { useHistory } from "react-router";
 import Announcement from "../../components/Announcement/Announcement";
 import Footer from "../../components/Footer/Footer";
@@ -18,7 +19,7 @@ const Cart = () => {
       <div className="Cart-Wrapper">
         <h1 className="Cart-Title">YOUR BAG</h1>
         <div className="Cart-Top">
-          <burron
+          <button
             className="Cart-TopButton"
             onClick={() => history.push("/productList")}
             style={{
@@ -27,11 +28,11 @@ const Cart = () => {
             }}
           >
             CONTINUE SHOPPING
-          </burron>
+          </button>
           <div className="Cart-TopTexts">
             <span className="Cart-TopText">Shopping Bag ({cart?.length})</span>
           </div>
-          <burron
+          <button
             className="Cart-TopButton"
             onClick={clearCart}
             style={{
@@ -40,15 +41,15 @@ const Cart = () => {
             }}
           >
             CLEAR CART
-          </burron>
+          </button>
         </div>
         <div className="Cart-Bottom">
           <div className="Cart-Info">
             {cart?.length === 0 && <h1>Your cart is empty</h1>}
             {cart?.map((item) => {
               return (
-                <>
-                  <div className="Cart-Product" key={item?.id}>
+                <React.Fragment key={item?.id}>
+                  <div className="Cart-Product">
                     <div className="Cart-ProductDetail">
                       <img
                         className="Cart-Image"
@@ -83,7 +84,7 @@ const Cart = () => {
                     </div>
                   </div>
                   <hr className="Cart-Hr" />
-                </>
+                </React.Fragment>
               );
             })}
           </div>

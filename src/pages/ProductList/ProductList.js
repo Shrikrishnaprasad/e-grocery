@@ -43,8 +43,9 @@ const ProductList = () => {
           <select
             className="ProductList-Select"
             onChange={(e) => setFilter(e.target.value)}
+            defaultValue="All"
           >
-            <option className="ProductList-Option" selected value="All">
+            <option className="ProductList-Option" value="All">
               All Categories
             </option>
             <option className="ProductList-Option" value="fruit">
@@ -63,8 +64,9 @@ const ProductList = () => {
           <select
             className="ProductList-Select"
             onChange={(e) => setSort(e.target.value)}
+            defaultValue="new"
           >
-            <option className="ProductList-Option" selected value="new">
+            <option className="ProductList-Option" value="new">
               Newest
             </option>
             <option className="ProductList-Option" value="asc">
