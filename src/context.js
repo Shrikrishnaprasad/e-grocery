@@ -8,10 +8,7 @@ import React, {
 import reducer from "./reducer";
 
 const AppContext = createContext();
-const cartItems =
-  JSON.parse(localStorage.getItem("cart")).length !== null
-    ? JSON.parse(localStorage.getItem("cart"))
-    : [];
+const cartItems = JSON.parse(localStorage.getItem("cart")) || [];
 const initialState = {
   cart: cartItems,
   total: 0,
